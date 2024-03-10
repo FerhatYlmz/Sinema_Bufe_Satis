@@ -18,7 +18,7 @@ namespace Sinema_Bufe_Satis
         }
 
         int kasatutar = 0;
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_hesapla_Click(object sender, EventArgs e)
         {
             int misir, bilet, su, cay, toplam;
             misir =Convert.ToInt16(textBox1.Text);
@@ -34,7 +34,7 @@ namespace Sinema_Bufe_Satis
             label11.Text = kasatutar.ToString() + "TL";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_temizle_Click(object sender, EventArgs e)
         {
             textBox1.Text = "";
             textBox2.Text = "";
